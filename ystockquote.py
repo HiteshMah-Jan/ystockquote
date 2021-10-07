@@ -38,6 +38,13 @@ def _request(symbol, stat):
     content = resp.read().decode().strip()
     return content
 
+username=isset($_POST['username']) ? $_POST['username'] : '';
+$password_1=isset($_POST['password_1']) ? $_POST['password_1'] : '';
+$password_2=isset($_POST['password_2']) ? $_POST['password_2'] : '';
+$phone=isset($_POST['phone']) ? $_POST['phone'] : '';
+$email=isset($_POST['email']) ? $_POST['email'] : '';
+
+//form validation
 
 def get_all(symbol):
     """
