@@ -27,7 +27,7 @@ try:
     # py3
     from urllib.request import Request, urlopen
     from urllib.parse import urlencode
-except ImportError:
+except ImportError:ccd
     # py2
     from urllib2 import Request, urlopen
     from urllib import urlencode
