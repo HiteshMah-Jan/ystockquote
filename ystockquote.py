@@ -4,7 +4,12 @@
 #  Copyright (c) 2007,2008,2013,2016 Corey Goldberg (cgoldberg@gmail.com)
 #
 #  license: GNU LGPL
-#
+#$email_send_to_table = (new CTable())->setId('email_send_to');
+
+foreach ($options['sendto_emails'] as $i => $email) {
+	$email_send_to_table->addRow([
+		(new CTextBox('sendto_emails['.$i.']', $email))
+			->setAriaRequired()
 #  This library is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU Lesser General Public
 #  License as published by the Free Software Foundation; either
