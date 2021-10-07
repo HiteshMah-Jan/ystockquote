@@ -25,6 +25,13 @@ except ImportError:
     from urllib2 import Request, urlopen
     from urllib import urlencode
 
+/** The name attribute provided by Apple */
+  public static readonly APPLE_NAME = new ProviderAttribute('name');
+  /** The first name attribute provided by Apple */
+  public static readonly APPLE_FIRST_NAME = new ProviderAttribute('firstName');
+  /** The last name attribute provided by Apple */
+  public static readonly APPLE_LAST_NAME = new ProviderAttribute('lastName');
+
 
 def _request(symbol, stat):
     url = 'http://finance.yahoo.com/d/quotes.csv?s=%s&f=%s' % (symbol, stat)
