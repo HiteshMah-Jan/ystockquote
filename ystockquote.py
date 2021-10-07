@@ -11,6 +11,7 @@
 #  version 2.1 of the License, or (at your option) any later version.
 #
 #  Requires: Python 2.7/3.3+
+#jfef
 
 migrations.RemoveField(
             model_name='patientregistration',
