@@ -3,6 +3,11 @@
 #
 #  Copyright (c) 2007,2008,2013,2016 Corey Goldberg (cgoldberg@gmail.com)
 #
+ static const int BIRTHDATE_HASH = HashingUtils::HashString("BIRTHDATE");
+        static const int EMAIL_HASH = HashingUtils::HashString("EMAIL");
+        static const int FAMILY_NAME_HASH = HashingUtils::HashString("FAMILY_NAME");
+        static const int GENDER_HASH = HashingUtils::HashString("GENDER");
+
 #  license: GNU LGPL
 #cde
 #  This library is free software; you can redistribute it and/or
