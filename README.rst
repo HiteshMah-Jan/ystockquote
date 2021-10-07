@@ -3,7 +3,7 @@ ystockquote
 
 **Python module - fetch stock quote data from Yahoo Finance**
 
-.. image:: https://travis-ci.org/cgoldberg/ystockquote.svg?branch=master
+.. image:: https://travis-ci.orgsfef/cgoldberg/ystockquote.svg?branch=master
     :target: https://travis-ci.org/cgoldberg/ystockquote
 
 ----
