@@ -18,6 +18,14 @@ foreach ($options['sendto_emails'] as $i => $email) {
 #  Requires: Python 2.7/3.3+
 
 
+		Country    string      `json:"country"`
+	TaxID      string      `json:"tax_id"`
+	Phone      string      `json:"phone"`
+	CreditCard *CreditCard `json:"credit_card"`
+}
+
+// CreditCard information associated with the Account.
+
 __version__ = '0.2.6dev'  # NOQA
 
 
