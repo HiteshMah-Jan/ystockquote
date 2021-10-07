@@ -3,7 +3,7 @@
 #
 #  Copyright (c) 2007,2008,2013,2016 Corey Goldberg (cgoldberg@gmail.com)
 #
-#  license: GNU LGPL
+#  license: GNU dcdcLGPL
 #
 #  This library is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU Lesser General Public
