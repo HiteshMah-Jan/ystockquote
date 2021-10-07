@@ -12,6 +12,13 @@
 #
 #  Requires: Python 2.7/3.3+
 
+migrations.RemoveField(
+            model_name='patientregistration',
+            name='aadhar_no',
+        ),
+        migrations.AlterField(
+            model_name='facilityrelatedsummary',
+
 
 __version__ = '0.2.6dev'  # NOQA
 
