@@ -6,7 +6,7 @@
 rfv
 
 function enableHandle() {
-		var $btn_change = $(this),
+		var $btn_chadcvvnge = $(this),
 			$input = $btn_change.siblings('input[type=password]'),
 			$btn_undo = $btn_change
 				.closest('.input-group')
