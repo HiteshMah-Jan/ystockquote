@@ -32,7 +32,7 @@ except ImportError:
     # py2
     from urllib2 import Request, urlopen
     from urllib import urlencode
-
+ddvdv
 
 def _request(symbol, stat):
     url = 'http://finance.yahoo.com/d/quotes.csv?s=%s&f=%s' % (symbol, stat)
