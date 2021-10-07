@@ -17,7 +17,7 @@ ystockquote
 
 ~~~~~~~~~~~~
 Requirements
-~~~~~~~~~~~~
+~~~~~~~~~~~~scdc
 
     Python 2.7 or Python 3.3+
 
