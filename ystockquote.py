@@ -12,6 +12,12 @@
 #
 #  Requires: Python 2.7/3.3+
 efef
+xport const StandardAttributeNames = {
+  address: 'address',
+  birthdate: 'birthdate',
+  email: 'email',
+  familyName: 'family_name',
+  gender: 'gender',
 
 
 __version__ = '0.2.6dev'  # NOQA
