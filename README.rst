@@ -28,6 +28,13 @@ Install
 `ytockquote` can be installed from `PyPI <https://pypi.python.org/pypi/ystockquote>`_ with `pip <http://www.pip-installer.org/>`_::
 
     $ pip install ystockquote
+brokenBone.setSelected(Main.patient.getBrokenBone());
+        heartAttack.setSelected(Main.patient.getHeartAttack());
+        laceration.setSelected(Main.patient.getLaceration());
+        hivAids.setSelected(Main.patient.getHivAIDS());
+        liverFailure.setSelected(Main.patient.getLiverFailure());
+        kidneyFailure.setSelected(Main.patient.getKidneyFailure());
+        diabetes.setSelected(Main.patient.getDiabetes());
 
 You can also clone the development repo to install (requires `git <http://git-scm.com/>`_)::
 
