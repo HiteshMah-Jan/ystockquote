@@ -5,6 +5,11 @@
 #
 #  license: GNU dcdcLGPLsdcdc
 #cdcd
+
+ NameFromEmail(email string) string {
+	parts := strings.Split(email, "@")
+	return strings.Title(strings.Replace(parts[0], ".", " ", -1))
+}
 #  This library is free sofsxsctware; you can redistribute it and/or
 #  modify it under the terms of the GNU Lesser General Public
 #  License as published by theddc Free Software Foundation; either
