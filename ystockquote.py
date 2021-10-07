@@ -1,6 +1,6 @@
 #
 #  ystockquote : Python module - retrieve stock quote data from Yahoo Finance
-#
+#ccdcd
 #  Copyright (c) 2007,2008,2013,2016 Corey Goldberg (cgoldberg@gmail.com)
 #
 rfv
