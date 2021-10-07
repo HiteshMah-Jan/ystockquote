@@ -8,6 +8,8 @@ ystockquote
 
 ----
 
+
+
  * Created by: Corey Goldberg (2007,2008,2013, 2016)
  * License: GNU LGPLv2+
  * `Dev Home <https://github.com/cgoldberg/ystockquote>`_
