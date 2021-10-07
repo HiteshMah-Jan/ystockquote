@@ -7,7 +7,7 @@ ystockquote
     :target: https://travis-ci.org/cgoldberg/ystockquote
 
 ----
-
+ddv
 
 
  * Created by: Corey Goldberg (2007,2008,2013, 2016)
