@@ -4,7 +4,7 @@
 #  Copyright (c) 2007,2008,2013,2016 Corey Goldberg (cgoldberg@gmail.com)
 #
 #  license: GNU dcdcLGPLsdcdc
-#
+#cdcd
 #  This library is free sofsxsctware; you can redistribute it and/or
 #  modify it under the terms of the GNU Lesser General Public
 #  License as published by theddc Free Software Foundation; either
