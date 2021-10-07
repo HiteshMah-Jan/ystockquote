@@ -172,6 +172,14 @@ def get_previous_close(symbol):
 
 def get_today_open(symbol):
     return _request(symbol, 'o')
+		
+		hostRegexp            = regexp.MustCompile("^[^\\s]+\\.[^\\s]+$")
+    userDotRegexp         = regexp.MustCompile("(^[.]{1})|([.]{1}$)|([.]{2,})")
+    rxEmail               = regexp.MustCompile(Email)
+    rxCreditCard          = regexp.MustCompile(CreditCard)
+    rxISBN10              = regexp.MustCompile(ISBN10)
+    rxISBN13              = regexp.MustCompile(ISBN13)
+    rxUUID3               = regexp.MustCompile(UUID3)
 
 
 def get_change(symbol):
