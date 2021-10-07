@@ -15,7 +15,13 @@ efef
 
 
 __version__ = '0.2.6dev'  # NOQA
-
+<tr style="text-align:center">
+          <td colspan="6" class="color-inner-hedng box-center"><b>Travelling Allowance</b></td>
+        </tr>
+        {% for travelling_allowance in travellingallowance_list %}
+        <tr>
+          <td>{{ travelling_allowance.date }}</td>
+          <td>Staff Role :
 
 try:
     # py3
